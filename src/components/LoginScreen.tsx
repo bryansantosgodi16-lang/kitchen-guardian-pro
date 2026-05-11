@@ -45,16 +45,11 @@ export function LoginScreen() {
               </div>
             </div>
 
-            <h3 className="mb-3 text-sm font-bold tracking-widest neon-text">DADOS DA EMPRESA</h3>
+            <h3 className="mb-3 text-sm font-bold tracking-widest neon-text">CREDENCIAIS</h3>
             <div className="mb-2 h-px w-full" style={{ background: "linear-gradient(90deg, rgba(0,255,136,0.6), transparent)" }} />
-            <div className="grid gap-4 pt-4 sm:grid-cols-2">
-              <Field label="Nome da Empresa" placeholder="Digite o nome da empresa" />
+            <div className="grid gap-4 pt-4">
               <Field label="Email" placeholder="exemplo@empresa.com" type="email" />
-              <Field label="CNPJ" placeholder="00.000.000/0000-00" />
-              <Field label="Telefone da Empresa" placeholder="(00) 0000-0000" />
-              <div className="sm:col-span-2">
-                <Field label="Telefone de Emergência" placeholder="(00) 0000-0000" />
-              </div>
+              <Field label="Senha" placeholder="••••••••" type="password" />
             </div>
 
             <button className="neon-btn mt-8 flex w-full items-center justify-center gap-3 rounded-2xl py-4 text-lg font-bold tracking-wide">
