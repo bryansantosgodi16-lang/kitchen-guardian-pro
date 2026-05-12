@@ -21,7 +21,7 @@ export function LoginScreen() {
         }} />
       </div>
 
-      <main className="relative mx-auto flex min-h-screen w-full max-w-md items-center px-4 py-8 sm:max-w-lg sm:px-6 sm:py-10 md:max-w-xl lg:max-w-2xl">
+      <main className="relative mx-auto flex min-h-screen w-full max-w-md flex-col items-center justify-center px-4 py-8 sm:max-w-lg sm:px-6 sm:py-10 md:max-w-xl lg:max-w-2xl">
         <div className="w-full">
           <section className="glass rounded-2xl p-5 sm:rounded-3xl sm:p-8 lg:p-10" style={{ animation: "fade-up 1s ease-out 0.25s both" }}>
             <div className="mb-6 flex items-start gap-3">
@@ -45,7 +45,7 @@ export function LoginScreen() {
           </section>
         </div>
 
-        <footer className="mt-10 text-center text-xs text-muted-foreground">
+        <footer className="mt-8 w-full text-center text-xs text-muted-foreground">
           <div className="flex items-center justify-center gap-2"><Shield className="h-4 w-4 neon-text" /> Sistema de Segurança para Cozinha Industrial</div>
           <div className="mt-1">© 2025 - Todos os direitos reservados.</div>
         </footer>
