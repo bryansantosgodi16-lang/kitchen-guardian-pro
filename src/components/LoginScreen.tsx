@@ -21,21 +21,8 @@ export function LoginScreen() {
         }} />
       </div>
 
-      <main className="relative mx-auto max-w-7xl px-6 py-10">
-        <div className="grid gap-8 lg:grid-cols-2">
-          <section className="glass flex flex-col items-center justify-center rounded-3xl p-8 text-center" style={{ animation: "fade-up 1s ease-out 0.1s both" }}>
-            <div className="relative h-56 w-56 overflow-hidden rounded-full neon-border" style={{ animation: "pulse-neon 3s ease-in-out infinite" }}>
-              <img src={logo} alt="Sistema de Segurança" className="h-full w-full object-cover" />
-            </div>
-            <h1 className="mt-6 text-3xl font-bold leading-tight">
-              Sistema de Segurança<br />
-              <span className="neon-text">para Cozinha Industrial</span>
-            </h1>
-            <p className="mt-4 max-w-sm text-sm text-muted-foreground">
-              Monitore em tempo real os sensores da sua cozinha industrial e garanta mais segurança para o seu negócio.
-            </p>
-          </section>
-
+      <main className="relative mx-auto flex min-h-screen max-w-md items-center px-6 py-10">
+        <div className="w-full">
           <section className="glass rounded-3xl p-8" style={{ animation: "fade-up 1s ease-out 0.25s both" }}>
             <div className="mb-6 flex items-start gap-3">
               <div className="rounded-xl p-2 neon-border"><Shield className="h-6 w-6 neon-text" /></div>
