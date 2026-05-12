@@ -21,14 +21,14 @@ export function LoginScreen() {
         }} />
       </div>
 
-      <main className="relative mx-auto flex min-h-screen max-w-md items-center px-6 py-10">
+      <main className="relative mx-auto flex min-h-screen w-full max-w-md items-center px-4 py-8 sm:max-w-lg sm:px-6 sm:py-10 md:max-w-xl lg:max-w-2xl">
         <div className="w-full">
-          <section className="glass rounded-3xl p-8" style={{ animation: "fade-up 1s ease-out 0.25s both" }}>
+          <section className="glass rounded-2xl p-5 sm:rounded-3xl sm:p-8 lg:p-10" style={{ animation: "fade-up 1s ease-out 0.25s both" }}>
             <div className="mb-6 flex items-start gap-3">
-              <div className="rounded-xl p-2 neon-border"><Shield className="h-6 w-6 neon-text" /></div>
+              <div className="rounded-xl p-2 neon-border"><Shield className="h-5 w-5 sm:h-6 sm:w-6 neon-text" /></div>
               <div>
-                <h2 className="text-2xl font-bold tracking-wide">ACESSO AO SISTEMA</h2>
-                <p className="text-sm text-muted-foreground">Preencha os dados da empresa para acessar o sistema.</p>
+                <h2 className="text-xl sm:text-2xl font-bold tracking-wide">ACESSO AO SISTEMA</h2>
+                <p className="text-xs sm:text-sm text-muted-foreground">Preencha os dados da empresa para acessar o sistema.</p>
               </div>
             </div>
 
@@ -39,12 +39,9 @@ export function LoginScreen() {
               <Field label="Senha" placeholder="••••••••" type="password" />
             </div>
 
-            <button className="neon-btn mt-8 flex w-full items-center justify-center gap-3 rounded-2xl py-4 text-lg font-bold tracking-wide">
-              <Lock className="h-5 w-5" /> SALVAR E ACESSAR SISTEMA
+            <button className="neon-btn mt-6 sm:mt-8 flex w-full items-center justify-center gap-2 sm:gap-3 rounded-xl sm:rounded-2xl py-3 sm:py-4 text-base sm:text-lg font-bold tracking-wide">
+              <Lock className="h-4 w-4 sm:h-5 sm:w-5" /> SALVAR E ACESSAR SISTEMA
             </button>
-            <p className="mt-4 text-center text-sm text-muted-foreground">
-              Já possui cadastro? <a className="neon-text font-semibold hover:underline" href="#">Fazer login</a>
-            </p>
           </section>
         </div>
 
