@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { IntroAnimation } from "@/components/IntroAnimation";
-import { Dashboard } from "@/components/Dashboard";
+import { LoginScreen } from "@/components/LoginScreen";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -17,7 +17,7 @@ function Index() {
   const [showIntro, setShowIntro] = useState(true);
   return (
     <>
-      <Dashboard />
+      <LoginScreen />
       {showIntro && <IntroAnimation onDone={() => setShowIntro(false)} />}
     </>
   );
