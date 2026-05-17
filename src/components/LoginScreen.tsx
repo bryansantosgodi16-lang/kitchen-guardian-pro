@@ -24,14 +24,6 @@ export function LoginScreen() {
       <main className="relative mx-auto flex min-h-screen w-full max-w-md flex-col items-center justify-center px-4 py-8 sm:max-w-lg sm:px-6 sm:py-10 md:max-w-xl lg:max-w-2xl">
         <div className="w-full">
           <section className="glass rounded-2xl p-5 sm:rounded-3xl sm:p-8 lg:p-10" style={{ animation: "fade-up 1s ease-out 0.25s both" }}>
-            <div className="mb-6 flex items-start gap-3">
-              <div className="rounded-xl p-2 neon-border"><Shield className="h-5 w-5 sm:h-6 sm:w-6 neon-text" /></div>
-              <div>
-                <h2 className="text-xl sm:text-2xl font-bold tracking-wide">ACESSO AO SISTEMA</h2>
-                <p className="text-xs sm:text-sm text-muted-foreground">Preencha os dados da empresa para acessar o sistema.</p>
-              </div>
-            </div>
-
             <h3 className="mb-3 text-sm font-bold tracking-widest neon-text">CREDENCIAIS</h3>
             <div className="mb-2 h-px w-full" style={{ background: "linear-gradient(90deg, rgba(0,255,136,0.6), transparent)" }} />
             <div className="grid gap-4 pt-4">
